@@ -1,0 +1,29 @@
+Algoritmo Ejercicio13
+	op <- a
+	Mientras op<>'c' Hacer
+		Escribir 'Operaciones'
+		Escribir 'a. Sumar 2 numeros '
+		Escribir 'b. Dividir 2 numeros '
+		Escribir 'c. Salir'
+		Escribir 'Elije una opcion: '
+		Leer op
+		Si op==a Entonces
+			Escribir 'Ingrese el primer numero: '
+			Leer n1
+			Escribir 'Ingrese el segundo numero: '
+			Leer n2
+			Escribir 'El resultado de la suma es: ',(n1+n2)
+		FinSi
+		Si op==b Entonces
+			Escribir 'Ingrese el primer numero: '
+			Leer n1
+			Escribir 'Ingrese el segundo numero: '
+			Leer n2
+			Si n2<>0 Entonces
+				Escribir 'El resultado de la division es: ',(n1/n2)
+			SiNo
+				Escribir 'No se puede dividir por cero'
+			FinSi
+		FinSi
+	FinMientras
+FinAlgoritmo
